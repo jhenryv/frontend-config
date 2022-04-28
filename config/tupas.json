@@ -1,0 +1,76 @@
+{
+  "tupas": [
+    {
+      "id": "DGFOO2-TUPA8",
+      "idUser": "ea22515b-4676-4788-b85a-bfd569754c9f",
+      "idEntidad": "DGFOO2",
+      "nombre": "TUPA 8",
+      "descripcion": "<b>DGF002</b>- Permiso(s) de exportaciones CITES para fibra de vicuña y sus productos.<br> <p></p> Borradores en curso <b>60</b> <br> Pago <b>1.957% productos </b><br> 10.2759% fibra</b> <br> Plazo <b>5 dias productos</b> <br> <b>9 dias fibras</b>",
+      "path_image": "/assets/vuce2-assets/images/tupa.png"
+    },
+    {
+      "id": "DGFOO2-TUPA9",
+      "idUser": "ea22515b-4676-4788-b85a-bfd569754c9f",
+      "idEntidad": "DGFOO2",
+      "nombre": "TUPA 9",
+      "descripcion": "<b>DGF002</b>- Autorizacion <br> para el establecimiento <br> de centros de <br> transformacion primaria Borradores en curso <b>300<b> <br> Pago <b>1.3038 % de la UIT<br> Plazo <b>3 dias</b>",
+      "path_image": "/assets/vuce2-assets/images/tupa.png"
+    },
+    {
+      "id": "DGFOO3-TUPA8",
+      "idUser": "ea22515b-4676-4788-b85a-bfd569754c9f",
+      "idEntidad": "DGFOO3",
+      "nombre": "TUPA 8",
+      "descripcion": "<b>DGFOO3</b>- Permiso(s) de exportaciones CITES para fibra de vicuña y sus productos.<br> <p></p> Borradores en curso <b>60</b> <br> Pago <b>1.957% productos </b><br>10.2759% fibra</b> <br> Plazo <b>5 dias productos</b> <br><b>9 dias fibras</b>",
+      "path_image": "/assets/vuce2-assets/images/tupa.png"
+    },
+    {
+      "id": "DGFOO3-TUPA9",
+      "idUser": "ea22515b-4676-4788-b85a-bfd569754c9f",
+      "idEntidad": "DGFOO3",
+      "nombre": "TUPA 9",
+      "descripcion": "<b>DGFOO3</b>- Permisos <br> para el establecimiento <br> de centros de <br> transformacion basica Plazo <b>3 dias</b>",
+      "path_image": "/assets/vuce2-assets/images/tupa.png"
+    },
+    {
+      "id": "DGFOO7-TUPA8",
+      "idUser": "11d95a03-1dbf-480f-9b75-edffa6a366fa",
+      "idEntidad": "DGFOO7",
+      "nombre": "TUPA 8",
+      "descripcion": "<b>DGF007</b>- Inspeccion <br> ocular de embarque",
+      "path_image": "/assets/vuce2-assets/images/tupa.png"
+    },
+    {
+      "id": "DGFOO7-TUPA9",
+      "idUser": "11d95a03-1dbf-480f-9b75-edffa6a366fa",
+      "idEntidad": "DGFOO7",
+      "nombre": "TUPA 9",
+      "descripcion": "<b>DGF007</b>- Permiso(s) de <br> exportaciones CITES <br> para fibra de vicuña y <br> sus productos.<br> Borradores en curso <b>216</b> <br> Pago <b>Gratuito <br> Plazo <b>7 dias<br>",
+      "path_image": "/assets/vuce2-assets/images/tupa.png"
+    },
+    {
+      "id": "DGFOO8-TUPA8",
+      "idUser": "11d95a03-1dbf-480f-9b75-edffa6a366fa",
+      "idEntidad": "DGFOO8",
+      "nombre": "TUPA 8",
+      "descripcion": "<b>DGF008</b>- Inspecciones <br> de galerias externas",
+      "path_image": "/assets/vuce2-assets/images/tupa.png"
+    },
+    {
+      "id": "DGFOO8-TUPA10",
+      "idUser": "11d95a03-1dbf-480f-9b75-edffa6a366fa",
+      "idEntidad": "DGFOO8",
+      "nombre": "TUPA 10",
+      "descripcion": "<b>DGF008</b>- Permiso(s) de <br> importaciones  <br> para productos andinos<br> Borradores en curso <b>216</b> <br>",
+      "path_image": "/assets/vuce2-assets/images/tupa.png"
+    },
+    {
+      "id": "DGFOO8-TUPA45",
+      "idUser": "11d95a03-1dbf-480f-9b75-edffa6a366fa",
+      "idEntidad": "DGFOO8",
+      "nombre": "TUPA 45",
+      "descripcion": "<b>DGF008</b>- Autorizacion <br> para el establecimiento <br> de centros de <br> transformacion secundaria",
+      "path_image": "/assets/vuce2-assets/images/tupa.png"
+    }
+  ]
+}

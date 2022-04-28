@@ -1,0 +1,44 @@
+{
+    "vuce2Comunicado": [
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Comunicado",
+            "exposedModule": "./Module",
+            "displayName": "Comunicado",
+            "routePath": "comunicado",
+            "ngName": "ComunicadoModule"
+        },
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Comunicado",
+            "exposedModule": "./Agenda",
+            "displayName": "agenda",
+            "routePath": "agenda",
+            "ngName": "AgendaModule"
+        },
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Comunicado",
+            "exposedModule": "./Documento",
+            "displayName": "Documento",
+            "routePath": "documento",
+            "ngName": "DocumentoModule"
+        },
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Comunicado",
+            "exposedModule": "./Reasignacion",
+            "displayName": "Reasignacion",
+            "routePath": "reasignaciones",
+            "ngName": "ReasignacionModule"
+        },
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Comunicado",
+            "exposedModule": "./Main",
+            "displayName": "Main",
+            "routePath": "main",
+            "ngName": "MainModule"
+        }
+    ]
+}

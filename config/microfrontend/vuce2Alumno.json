@@ -1,0 +1,12 @@
+{
+    "vuce2Alumno": [
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Alumno",
+            "exposedModule": "./AlumnoListado",
+            "displayName": "AlumnoListado",
+            "routePath": "alumnoListado",
+            "ngName": "AlumnoListadoModule"
+        }
+    ]
+}

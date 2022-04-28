@@ -1,0 +1,286 @@
+{
+    "tabulador": [
+        {
+            "idTabulador": "TAB-01",
+            "caption": "Solicitud",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitudModule",
+            "componentName": "SolicitudComponent",
+            "idEntidad": "DGFOO2",
+            "idTupa": "DGFOO2-TUPA8"
+        },
+        {
+            "idTabulador": "TAB-02",
+            "caption": "Solicitante",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitanteModule",
+            "componentName": "SolicitanteComponent",
+            "idEntidad": "DGFOO2",
+            "idTupa": "DGFOO2-TUPA8"
+        },
+        {
+            "idTabulador": "TAB-03",
+            "caption": "Detalles",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "DetallesModule",
+            "componentName": "DetallesComponent",
+            "idEntidad": "DGFOO2",
+            "idTupa": "DGFOO2-TUPA8"
+        },
+        {
+            "idTabulador": "TAB-04",
+            "caption": "Solicitud",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitudModule",
+            "componentName": "SolicitudComponent",
+            "idEntidad": "DGFOO2",
+            "idTupa": "DGFOO2-TUPA9"
+        },
+        {
+            "idTabulador": "TAB-05",
+            "caption": "Solicitante",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitanteModule",
+            "componentName": "SolicitanteComponent",
+            "idEntidad": "DGFOO2",
+            "idTupa": "DGFOO2-TUPA9"
+        },
+        {
+            "idTabulador": "TAB-06",
+            "caption": "Detalles",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "DetallesModule",
+            "componentName": "DetallesComponent",
+            "idEntidad": "DGFOO2",
+            "idTupa": "DGFOO2-TUPA9"
+        },
+        {
+            "idTabulador": "TAB-07",
+            "caption": "Solicitud",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitudModule",
+            "componentName": "SolicitudComponent",
+            "idEntidad": "DGFOO3",
+            "idTupa": "DGFOO3-TUPA8"
+        },
+        {
+            "idTabulador": "TAB-08",
+            "caption": "Solicitante",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitanteModule",
+            "componentName": "SolicitanteComponent",
+            "idEntidad": "DGFOO3",
+            "idTupa": "DGFOO3-TUPA8"
+        },
+        {
+            "idTabulador": "TAB-09",
+            "caption": "Detalles",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "DetallesModule",
+            "componentName": "DetallesComponent",
+            "idEntidad": "DGFOO3",
+            "idTupa": "DGFOO3-TUPA8"
+        },
+        {
+            "idTabulador": "TAB-10",
+            "caption": "Solicitud",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitudModule",
+            "componentName": "SolicitudComponent",
+            "idEntidad": "DGFOO3",
+            "idTupa": "DGFOO3-TUPA9"
+        },
+        {
+            "idTabulador": "TAB-11",
+            "caption": "Solicitante",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitanteModule",
+            "componentName": "SolicitanteComponent",
+            "idEntidad": "DGFOO3",
+            "idTupa": "DGFOO3-TUPA9"
+        },
+        {
+            "idTabulador": "TAB-12",
+            "caption": "Detalles",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "DetallesModule",
+            "componentName": "DetallesComponent",
+            "idEntidad": "DGFOO3",
+            "idTupa": "DGFOO3-TUPA9"
+        },
+        {
+            "idTabulador": "TAB-13",
+            "caption": "Solicitud",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitudModule",
+            "componentName": "SolicitudComponent",
+            "idEntidad": "DGFOO7",
+            "idTupa": "DGFOO7-TUPA8",
+            "disabled": false,
+            "tabNext": "SolicitanteModule"
+        },
+        {
+            "idTabulador": "TAB-14",
+            "caption": "Solicitante",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitanteModule",
+            "componentName": "SolicitanteComponent",
+            "idEntidad": "DGFOO7",
+            "idTupa": "DGFOO7-TUPA8",
+            "disabled": false,
+            "tabNext": "DetallesModule"
+        },
+        {
+            "idTabulador": "TAB-15",
+            "caption": "Detalles",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "DetallesModule",
+            "componentName": "DetallesComponent",
+            "idEntidad": "DGFOO7",
+            "idTupa": "DGFOO7-TUPA8",
+            "disabled": false,
+            "tabNext": ""
+        },
+        {
+            "idTabulador": "TAB-16",
+            "caption": "Solicitud",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitudModule",
+            "componentName": "SolicitudComponent",
+            "idEntidad": "DGFOO7",
+            "idTupa": "DGFOO7-TUPA9",
+            "disabled": false,
+            "tabNext": "SolicitanteModule"
+        },
+        {
+            "idTabulador": "TAB-17",
+            "caption": "Solicitante",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitanteModule",
+            "componentName": "SolicitanteComponent",
+            "idEntidad": "DGFOO7",
+            "idTupa": "DGFOO7-TUPA9",
+            "disabled": false,
+            "tabNext": "DetallesModule"
+        },
+        {
+            "idTabulador": "TAB-18",
+            "caption": "Detalles",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "DetallesModule",
+            "componentName": "DetallesComponent",
+            "idEntidad": "DGFOO7",
+            "idTupa": "DGFOO7-TUPA9",
+            "disabled": false,
+            "tabNext": ""
+        },
+        {
+            "idTabulador": "TAB-19",
+            "caption": "Solicitud",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitudModule",
+            "componentName": "SolicitudComponent",
+            "idEntidad": "DGFOO8",
+            "idTupa": "DGFOO8-TUPA8"
+        },
+        {
+            "idTabulador": "TAB-20",
+            "caption": "Solicitante",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitanteModule",
+            "componentName": "SolicitanteComponent",
+            "idEntidad": "DGFOO8",
+            "idTupa": "DGFOO8-TUPA8"
+        },
+        {
+            "idTabulador": "TAB-21",
+            "caption": "Detalles",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "DetallesModule",
+            "componentName": "DetallesComponent",
+            "idEntidad": "DGFOO8",
+            "idTupa": "DGFOO8-TUPA8"
+        },
+        {
+            "idTabulador": "TAB-22",
+            "caption": "Solicitud",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitudModule",
+            "componentName": "SolicitudComponent",
+            "idEntidad": "DGFOO8",
+            "idTupa": "DGFOO8-TUPA10"
+        },
+        {
+            "idTabulador": "TAB-23",
+            "caption": "Solicitante",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitanteModule",
+            "componentName": "SolicitanteComponent",
+            "idEntidad": "DGFOO8",
+            "idTupa": "DGFOO8-TUPA10"
+        },
+        {
+            "idTabulador": "TAB-24",
+            "caption": "Detalles",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "DetallesModule",
+            "componentName": "DetallesComponent",
+            "idEntidad": "DGFOO8",
+            "idTupa": "DGFOO8-TUPA10"
+        },
+        {
+            "idTabulador": "TAB-25",
+            "caption": "Solicitud",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitudModule",
+            "componentName": "SolicitudComponent",
+            "idEntidad": "DGFOO8",
+            "idTupa": "DGFOO8-TUPA45"
+        },
+        {
+            "idTabulador": "TAB-26",
+            "caption": "Solicitante",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "SolicitanteModule",
+            "componentName": "SolicitanteComponent",
+            "idEntidad": "DGFOO8",
+            "idTupa": "DGFOO8-TUPA45"
+        },
+        {
+            "idTabulador": "TAB-27",
+            "caption": "Detalles",
+            "type": "microfrontend",
+            "remoteName": "vuce2Solicitud",
+            "ngName": "DetallesModule",
+            "componentName": "DetallesComponent",
+            "idEntidad": "DGFOO8",
+            "idTupa": "DGFOO8-TUPA45"
+        }
+    ]
+}

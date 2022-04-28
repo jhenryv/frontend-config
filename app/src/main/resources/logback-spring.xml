@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+    <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
+
+    <springProperty scope="context" name="log.app" source="spring.application.name" defaultValue="api"/>
+    <springProperty scope="context" name="log.env" source="spring.config.activate.on-profile" defaultValue="dev"/>
+    <springProperty scope="context" name="log.host" source="elk.host" defaultValue="127.0.0.1"/>
+    <springProperty scope="context" name="log.port" source="elk.port" defaultValue="5000"/>
+
+    <property scope="context" name="log.fileExtension" value="txt"/>
+    <property scope="context" name="log.directory" value="log"/>
+    <property scope="context" name="log.fileName" value="log-elk"/>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%red([%d{yyyy-MM-dd HH:mm:ss.SSS}]) [${HOSTNAME}] [%thread] %highlight(%level)
+                %logger{36}@%method:%line - %cyan(%msg%n)
+            </pattern>
+        </layout>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${log.directory}/${log.fileName}.%d{yyyy-MM-dd}.${log.fileExtension}</fileNamePattern>
+        </rollingPolicy>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] [${HOSTNAME}] [%thread] %level %logger{36}@%method:%line - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE"/>
+    </root>
+<!--    <springProfile name="prod">
+        <appender name="STASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
+            <destination>${log.host}:${log.port}</destination>
+            &lt;!&ndash; encoder is required &ndash;&gt;
+            <encoder class="net.logstash.logback.encoder.LogstashEncoder"/>
+            <keepAliveDuration>5 minutes</keepAliveDuration>
+        </appender>
+        <root level="INFO">
+            <appender-ref ref="STASH"/>
+        </root>
+    </springProfile>-->
+</configuration>

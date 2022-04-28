@@ -1,0 +1,36 @@
+{
+    "vuce2Mercancia": [
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Mercancia",
+            "exposedModule": "./Module",
+            "displayName": "Mercancia",
+            "routePath": "mercancia",
+            "ngName": "MercanciaModule"
+        },
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Mercancia",
+            "exposedModule": "./Proveedor",
+            "displayName": "proveedor",
+            "routePath": "proveedor",
+            "ngName": "ProveedorModule"
+        },
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Mercancia",
+            "exposedModule": "./Exportacion",
+            "displayName": "exportacion",
+            "routePath": "exportacion",
+            "ngName": "ExportacionModule"
+        },
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Mercancia",
+            "exposedModule": "./Importacion",
+            "displayName": "importacion",
+            "routePath": "importacion",
+            "ngName": "ImportacionModule"
+        }
+    ]
+}

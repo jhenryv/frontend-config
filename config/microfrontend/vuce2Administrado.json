@@ -1,0 +1,21 @@
+{
+    "vuce2Administrado": [
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Administrado",
+            "exposedModule": "./Module",
+            "displayName": "alumno",
+            "routePath": "alumno",
+            "ngName": "AlumnoModule"
+        },
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Administrado",
+            "exposedModule": "./AlumnoDemo",
+            "displayName": "alumnoDemo",
+            "routePath": "alumnoDemo",
+            "ngName": "AlumnoDemoModule"
+        }
+        
+    ]
+}

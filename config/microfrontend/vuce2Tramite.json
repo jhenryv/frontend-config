@@ -1,0 +1,44 @@
+{
+    "vuce2Tramite": [
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Tramite",
+            "exposedModule": "./Pendiente",
+            "displayName": "Pendiente",
+            "routePath": "pendiente",
+            "ngName": "PendienteModule"
+        },
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Cabecera",
+            "exposedModule": "./Module",
+            "displayName": "Cabecera",
+            "routePath": "cabecera",
+            "ngName": "CabeceraModule"
+        },
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Content",
+            "exposedModule": "./Module",
+            "displayName": "Content",
+            "routePath": "content",
+            "ngName": "ContentModule"
+        },
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Tabulador",
+            "exposedModule": "./Module",
+            "displayName": "Tabulador",
+            "routePath": "tabulador",
+            "ngName": "TabuladorModule"
+        },
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Tramite",
+            "exposedModule": "./Pedido",
+            "displayName": "Pedido",
+            "routePath": "pedido",
+            "ngName": "PedidoModule"
+        }
+    ]
+}

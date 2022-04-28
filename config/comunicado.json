@@ -1,0 +1,49 @@
+{
+    "comunicado": [
+        {
+            "id": "c01",
+            "tipoDocumento": "RUC",
+            "numeroDocumento": "15343531624",
+            "razonSocial": "Famesa SA",
+            "direccion": "Jr Santa Maria N° 567",
+            "celular": "998763543",
+            "correoElectronico": "ejemplo@gmail.com",
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lince",
+            "telefono": "0000000",
+            "fax": "0000000",
+            "representanteLegal": ""
+        },
+        {
+            "id": "c02",
+            "tipoDocumento": "RUC",
+            "numeroDocumento": "18726354798",
+            "razonSocial": "ClusteringPe SA",
+            "direccion": "Jr Veracruz N° 567",
+            "celular": "998763543",
+            "correoElectronico": "ejemplo@gmail.com",
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lince",
+            "telefono": "0000000",
+            "fax": "0000000",
+            "representanteLegal": ""
+        },
+        {
+            "id": "c03",
+            "tipoDocumento": "RUC",
+            "numeroDocumento": "98767854313",
+            "razonSocial": "Metros SA",
+            "direccion": "Jr Super N° 567",
+            "celular": "998763543",
+            "correoElectronico": "ejemplo@gmail.com",
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lince",
+            "telefono": "0000000",
+            "fax": "0000000",
+            "representanteLegal": ""
+        }
+    ]
+}

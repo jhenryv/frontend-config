@@ -1,0 +1,308 @@
+{
+    "modules": [
+        {
+            "id":   1,
+            "name": "Dashboard",
+            "url": "vuce2-dashboard",
+            "visible": true,
+            "contentDefault": "home",
+            "subModules": [
+                {
+                    "icono": "",
+                    "name": "Nueva Solicitud",
+                    "content": "Entidades"
+                },
+                {
+                    "icono": "",
+                    "name": "Nueva Solicitudes",
+                    "content": "Entidades"
+                }
+            ],
+            "contents": [
+                {
+                    "id": "home",
+                    "name": "home",
+                    "title": "Bienvenidos al sistema VUCE",
+                    "subTitle": "Un solo punto de acceso para todas tus operaciones de comercio exterior",
+                    "items": [
+                        {
+                            "id": "mercancia",
+                            "type": "microfrontend",
+                            "remoteName": "vuce2Mercancia",
+                            "name": "MercanciaModule",
+                            "componentName": "MercanciaRestringidaComponent",
+                            "col": "col-12",
+                            "hidden": true
+                        },
+                        {
+                            "id": "comunicado",
+                            "type": "microfrontend",
+                            "remoteName": "vuce2Comunicado",
+                            "name": "ComunicadoModule",
+                            "componentName": "ComunicadoComponent",
+                            "col": "col-12",
+                            "hidden": false
+                        },
+                        {
+                            "id": "pendiente",
+                            "type": "microfrontend",
+                            "remoteName": "vuce2Tramite",
+                            "name": "PendienteModule",
+                            "componentName": "PendienteComponent",
+                            "col": "col-12",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Tramite",
+            "url": "vuce2-tramite",
+            "visible": true,
+            "contentDefault": "tramite",
+            "contents": [
+                {
+                    "id": "tramite",
+                    "name": "tramite",
+                    "title": "Trámite",
+                    "items" :[
+                        {
+                            "id": "pedido",
+                            "type": "microfrontend",
+                            "remoteName": "vuce2Tramite",
+                            "name": "PedidoModule",
+                            "componentName": "PedidoComponent",
+                            "col": "col-12",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Comunicado",
+            "url": "vuce2-comunicado",
+            "visible": true,
+            "contentDefault": "main",
+            "contents": [
+                {
+                    "id": "Main",
+                    "name": "main",
+                    "title": "",
+                    "items": [
+                        {
+                            "id": "main",
+                            "type": "microfrontend",
+                            "remoteName": "vuce2Comunicado",
+                            "name": "MainModule",
+                            "componentName": "MainComponent",
+                            "col": "col-12",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Mercancia",
+            "url": "vuce2-mercancia",
+            "visible": true,
+            "contentDefault": "mercancia",
+            "contents": [ 
+
+                {
+                    "id": "Mercancia",
+                    "name": "mercancia",
+                    "title": "",
+                    "items": [
+                        {
+                            "id": "mercancia",
+                            "type": "microfrontend",
+                            "remoteName": "vuce2Mercancia",
+                            "name": "MercanciaModule",
+                            "componentName": "MercanciaRestringidaComponent",
+                            "col": "col-12",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
+            
+        },
+        {
+            "id": 5,
+            "name": "Solicitud",
+            "url": "vuce2-solicitud",
+            "visible": true,
+            "contentDefault": "entidades",
+            "contents": [
+                {
+                    "id": "Entidades",
+                    "name": "entidades",
+                    "title": "",
+                    "items": [
+                        {
+                            "id": "entidades",
+                            "type": "microfrontend",
+                            "remoteName": "vuce2Solicitud",
+                            "name": "EntidadesModule",
+                            "componentName": "EntidadesComponent",
+                            "col": "col-12",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "id": "Tupas",
+                    "name": "tupas",
+                    "title": "",
+                    "items": [
+                        {
+                            "id": "tupas",
+                            "type": "microfrontend",
+                            "remoteName": "vuce2Solicitud",
+                            "name": "TupasModule",
+                            "componentName": "TupasComponent",
+                            "col": "col-12",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "id": "Tupa",
+                    "name": "tupa",
+                    "title": "",
+                    "items": [
+                        {
+                            "id": "home-content1",
+                            "type": "microfrontend",
+                            "remoteName": "vuce2Cabecera",
+                            "name": "CabeceraModule",
+                            "componentName": "CabeceraComponent",
+                            "col": "col-12",
+                            "hidden": false
+                        },
+                        {
+                            "id": "home-content2",
+                            "type": "microfrontend",
+                            "remoteName": "vuce2Tabulador",
+                            "name": "TabuladorModule",
+                            "componentName": "TabuladorComponent",
+                            "col": "col-12",
+                            "hidden": false
+                        },
+                        {
+                            "id": "home-content3",
+                            "type": "microfrontend",
+                            "remoteName": "vuce2Content",
+                            "name": "ContentModule",
+                            "componentName": "ContentComponent",
+                            "col": "col-12",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Inspeccion",
+            "url": "vuce2-inspeccion",
+            "visible": true,
+            "contentDefault": "inspeccion",
+            "contents": [ 
+
+                {
+                    "id": "Inspeccion",
+                    "name": "inspeccion",
+                    "title": "",
+                    "items": [
+                        {
+                            "id": "inspeccion",
+                            "type": "microfrontend",
+                            "remoteName": "vuce2Inspeccion",
+                            "name": "InspeccionModule",
+                            "componentName": "InspeccionComponent",
+                            "col": "col-12",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
+            
+        },
+        {
+            "id": 7,
+            "name": "Alumno",
+            "url": "vuce2-alumno",
+            "visible": true,
+            "contentDefault": "alumno",
+            "contents": [ 
+                {
+                    "id": "Alumno",
+                    "name": "alumno",
+                    "title": "",
+                    "items": [
+                        {
+                            "id": "alumnoListado",
+                            "type": "microfrontend",
+                            "remoteName": "vuce2Alumno",
+                            "name": "AlumnoListadoModule",
+                            "componentName": "AlumnoListadoComponent",
+                            "col": "col-12",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]        
+        },
+        {
+            "id": 8,
+            "name": "Administrado",
+            "url": "vuce2-administrado",
+            "visible": true,
+            "contentDefault": "alumno",
+            "contents": [ 
+
+                {
+                    "id": "Alumno",
+                    "name": "alumno",
+                    "title": "",
+                    "items": [
+                        {
+                            "id": "alumno",
+                            "type": "microfrontend",
+                            "remoteName": "vuce2Administrado",
+                            "name": "AlumnoModule",
+                            "componentName": "AlumnoListadoComponent",
+                            "col": "col-12",
+                            "hidden": false
+                        }
+                    ]
+                },
+
+                {
+                    "id": "AlumnoDemo",
+                    "name": "alumnoDemo",
+                    "title": "",
+                    "items": [
+                        {
+                            "id": "alumnoDemo",
+                            "type": "microfrontend",
+                            "remoteName": "vuce2Administrado",
+                            "name": "AlumnoDemoModule",
+                            "componentName": "AlumnoListadoDemoComponent",
+                            "col": "col-12",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
+            
+        }
+    ]
+}

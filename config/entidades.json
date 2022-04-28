@@ -1,0 +1,53 @@
+{
+  "entidades": [
+    {
+      "id": "DGFOO2",
+      "idUser": "ea22515b-4676-4788-b85a-bfd569754c9f",
+      "nombre": "SERFOR",
+      "descripcion": "Servicio forestal y de fauna silvestre",
+      "path_image": "/assets/vuce2-assets/images/SERFOR.svg"
+    },
+    {
+      "id": "DGFOO3",
+      "idUser": "ea22515b-4676-4788-b85a-bfd569754c9f",
+      "nombre": "DIGEMID",
+      "descripcion": "Direccion General de Medicamentos, Insumos y Drogas",
+      "path_image": "/assets/vuce2-assets/images/DIGEMID.svg"
+    },
+    {
+      "id": "DGFOO4",
+      "nombre": "DIGESA",
+      "idUser": "ea22515b-4676-4788-b85a-bfd569754c9f",
+      "descripcion": "Direccion general de salud ambiental",
+      "path_image": "/assets/vuce2-assets/images/DIGESA.svg"
+    },
+    {
+      "id": "DGFOO5",
+      "idUser": "ea22515b-4676-4788-b85a-bfd569754c9f",
+      "nombre": "IPEN",
+      "descripcion": "Instituto Peruano de Energia Nuclear.",
+      "path_image": "/assets/vuce2-assets/images/IPEN.svg"
+    },
+    {
+      "id": "DGFOO7",
+      "idUser": "11d95a03-1dbf-480f-9b75-edffa6a366fa",
+      "nombre": "PRODUCE",
+      "descripcion": "Ministerio de la Produccion",
+      "path_image": "/assets/vuce2-assets/images/PRODUCE.svg"
+    },
+    {
+      "id": "DGFOO8",
+      "idUser": "11d95a03-1dbf-480f-9b75-edffa6a366fa",
+      "nombre": "SANIPES",
+      "descripcion": "Organismo Nacional de Sanidad Pesquera",
+      "path_image": "/assets/vuce2-assets/images/SANIPES.svg"
+    },
+    {
+      "id": "DGFOO9",
+      "idUser": "11d95a03-1dbf-480f-9b75-edffa6a366fa",
+      "nombre": "SENASA",
+      "descripcion": "Servicio Nacioanal de Sanidad Agraria",
+      "path_image": "/assets/vuce2-assets/images/SENASA.svg"
+    }
+  ]
+}

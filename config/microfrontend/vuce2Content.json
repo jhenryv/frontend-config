@@ -1,0 +1,12 @@
+{
+    "vuce2Content": [
+        { 
+            "remoteEntry": "",
+            "remoteName": "vuce2Content",
+            "exposedModule": "./Module",
+            "displayName": "Content",
+            "routePath": "content",
+            "ngName": "ContentModule"
+        }
+    ]
+}

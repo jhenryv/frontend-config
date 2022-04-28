@@ -1,0 +1,70 @@
+{
+    "cabecera": [
+        {
+            "idCabecera": "CAB-01",
+            "titulo": "SERFOR - TUPA8",
+            "subtitulo": "Este es subtitulo de serfor tupa 8",
+            "idEntidad": "DGFOO2",
+            "idTupa": "DGFOO2-TUPA8"
+        },
+        {
+            "idCabecera": "CAB-02",
+            "titulo": "SERFOR - TUPA9",
+            "subtitulo": "Este es subtitulo de serfor tupa 9",
+            "idEntidad": "DGFOO2",
+            "idTupa": "DGFOO2-TUPA9"
+        },
+
+        {
+            "idCabecera": "CAB-03",
+            "titulo": "DIGEMID - TUPA8",
+            "subtitulo": "Este es subtitulo de digemid tupa 8",
+            "idEntidad": "DGFOO3",
+            "idTupa": "DGFOO3-TUPA8"
+        },
+        {
+            "idCabecera": "CAB-04",
+            "titulo": "DIGEMID - TUPA9",
+            "subtitulo": "Este es subtitulo de digemid tupa 9",
+            "idEntidad": "DGFOO3",
+            "idTupa": "DGFOO3-TUPA9"
+        },
+
+        {
+            "idCabecera": "CAB-05",
+            "titulo": "PRODUCE - TUPA8",
+            "subtitulo": "Este es subtitulo de produce tupa 8",
+            "idEntidad": "DGFOO7",
+            "idTupa": "DGFOO7-TUPA8"
+        },
+        {
+            "idCabecera": "CAB-06",
+            "titulo": "PRODUCE - TUPA9",
+            "subtitulo": "Este es subtitulo de produce tupa 9",
+            "idEntidad": "DGFOO7",
+            "idTupa": "DGFOO7-TUPA9"
+        },
+
+        {
+            "idCabecera": "CAB-07",
+            "titulo": "SAPINES - TUPA8",
+            "subtitulo": "Este es subtitulo de sapines tupa 8",
+            "idEntidad": "DGFOO8",
+            "idTupa": "DGFOO8-TUPA8"
+        },
+        {
+            "idCabecera": "CAB-08",
+            "titulo": "SAPINES - TUPA10",
+            "subtitulo": "Este es subtitulo de sapines tupa 10",
+            "idEntidad": "DGFOO8",
+            "idTupa": "DGFOO8-TUPA10"
+        },
+        {
+            "idCabecera": "CAB-09",
+            "titulo": "SAPINES - TUPA45",
+            "subtitulo": "Este es subtitulo de sapines tupa 45",
+            "idEntidad": "DGFOO8",
+            "idTupa": "DGFOO8-TUPA45"
+        }
+    ]
+}

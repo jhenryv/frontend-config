@@ -1,0 +1,12 @@
+{
+    "vuce2Tabulador": [
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Tabulador",
+            "exposedModule": "./Module",
+            "displayName": "Tabulador",
+            "routePath": "tabulador",
+            "ngName": "TabuladorModule"
+        }
+    ]
+}

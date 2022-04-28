@@ -1,0 +1,44 @@
+{
+    "vuce2Solicitud": [
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Solicitud",
+            "exposedModule": "./Module",
+            "displayName": "Entidades",
+            "routePath": "Entidades",
+            "ngName": "EntidadesModule"
+        },
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Solicitud",
+            "exposedModule": "./Tupas",
+            "displayName": "Tupas",
+            "routePath": "Tupas",
+            "ngName": "TupasModule"
+        },
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Solicitud",
+            "exposedModule": "./Solicitud",
+            "displayName": "Solicitud",
+            "routePath": "Solicitud",
+            "ngName": "SolicitudModule"
+        },
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Solicitud",
+            "exposedModule": "./Solicitante",
+            "displayName": "solicitante",
+            "routePath": "solicitante",
+            "ngName": "SolicitanteModule"
+        },
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Solicitud",
+            "exposedModule": "./Detalles",
+            "displayName": "detalles",
+            "routePath": "detalles",
+            "ngName": "DetallesModule"
+        }
+    ]
+}

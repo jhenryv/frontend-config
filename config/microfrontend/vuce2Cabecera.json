@@ -1,0 +1,12 @@
+{
+    "vuce2Cabecera": [
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Cabecera",
+            "exposedModule": "./Module",
+            "displayName": "Cabecera",
+            "routePath": "cabecera",
+            "ngName": "CabeceraModule"
+        }
+    ]
+}

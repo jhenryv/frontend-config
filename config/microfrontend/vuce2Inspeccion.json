@@ -1,0 +1,13 @@
+{
+    "vuce2Inspeccion": [
+        {
+            "remoteEntry": "",
+            "remoteName": "vuce2Inspeccion",
+            "exposedModule": "./Module",
+            "displayName": "Inspeccion",
+            "routePath": "inspeccion",
+            "ngName": "InspeccionModule"
+        }
+        
+    ]
+}
