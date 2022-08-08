@@ -8,5 +8,3 @@ COPY config /app/config
 
 CMD ["java","-jar","-Dspring.profiles.active=prod","/app/app.jar"]
 EXPOSE 8000
-
-#docker build -f .\Dockerfile -t vuce2-mfeconfig-api:0.1-SNAPSHOT .
