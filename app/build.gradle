@@ -69,8 +69,8 @@ dependencies {
     implementation 'org.mongodb:mongo-java-driver:3.12.10'
 
     //vuce2 library
-    implementation 'vuce2.library:vuce2.library:1.7-SNAPSHOT'
-    implementation 'vuce2.library:vuce2.library.common:0.4-SNAPSHOT'
+    implementation 'vuce2.library:vuce2.library:1.8-SNAPSHOT'
+    implementation 'vuce2.library:vuce2.library.common:0.5-SNAPSHOT'
 
     implementation 'org.modelmapper:modelmapper:2.4.2'
 
