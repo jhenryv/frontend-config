@@ -23,6 +23,15 @@ repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
     maven {
+        url 'http://52.226.243.237:80/artifactory/gradle-dev/'
+        allowInsecureProtocol = true
+        credentials {
+            username ='invitado'
+            password ='b5yAPh4yyAemf98x!'
+        }
+    }
+    /*
+    maven {
         url "http://10.19.34.189:8082/artifactory/mr2-libs-micro-local/"
         allowInsecureProtocol = true
         credentials {
@@ -30,6 +39,7 @@ repositories {
             password "b5yAPh4yyAemf98x"
         }
     }
+    */
 }
 
 dependencies {
@@ -59,7 +69,7 @@ dependencies {
     implementation 'org.mongodb:mongo-java-driver:3.12.10'
 
     //vuce2 library
-    implementation 'vuce2.library:vuce2.library:1.1-SNAPSHOT'
+    implementation 'vuce2.library:vuce2.library:1.7-SNAPSHOT'
     implementation 'vuce2.library:vuce2.library.common:0.4-SNAPSHOT'
 
     implementation 'org.modelmapper:modelmapper:2.4.2'
