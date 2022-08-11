@@ -12,6 +12,8 @@ public class Card {
     @Id
     private String id;
     private String title;
+    private Boolean visible;
+    private String tipoCampo;
     private ArrayList<Items> items;
     private Boolean modify;
 }

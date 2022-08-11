@@ -12,5 +12,6 @@ import java.util.ArrayList;
 public class SubSeccionesProcesosDto {
     private String id;
     private String name;
+    private Boolean visible;
     private ArrayList<Card> card;
 }
