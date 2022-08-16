@@ -1,19 +1,21 @@
 package vuce2.mfeconfig.models;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.validation.constraints.NotNull;
-import java.util.ArrayList;
 
-@Document(collection = "subSeccionesProcesos")
-public class SubSeccionesProcesos {
+@Getter
+@Setter
+@Document(collection = "entidad")
+public class Entidad {
     @Id
     @NotNull
     private String id;
-    private String name;
-    private Boolean visible;
-    private String idSeccion;
-    private ArrayList<Card> card;
 
+    private String nombreEntidad;
+
+    private String idAdministrado;
 }

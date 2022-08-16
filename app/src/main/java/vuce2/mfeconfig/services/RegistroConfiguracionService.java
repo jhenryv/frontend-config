@@ -2,9 +2,7 @@ package vuce2.mfeconfig.services;
 
 import lombok.extern.slf4j.Slf4j;
 import org.bson.types.ObjectId;
-import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Service;
-import vuce2.mfeconfig.dtos.OpcionesEscogidasDto;
 import vuce2.mfeconfig.dtos.RegistroConfiguracionDto;
 import vuce2.mfeconfig.models.*;
 import vuce2.mfeconfig.repositories.RegistroConfiguracionRepository;
@@ -47,9 +45,16 @@ public class RegistroConfiguracionService {
             }
             item.setId(new ObjectId());
         }
-        registroConfiguracionRepository.save(entity);
-        sr.AddMessage("Registro de Configuración guardado correctamente");
-        sr.setSuccess(true);
+        try{
+            registroConfiguracionRepository.save(entity);
+            sr.AddMessage("Registro de configuración guardado correctamente");
+            sr.setSuccess(true);
+        } catch (Exception ex){
+            sr.AddMessage("Error en el registro de configuración");
+            sr.setSuccess(false);
+        }
+
+
         return  sr;
     }
 }

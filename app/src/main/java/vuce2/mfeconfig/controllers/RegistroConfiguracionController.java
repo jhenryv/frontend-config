@@ -5,7 +5,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import vuce2.library.common.model.StatusResponse;
-import vuce2.mfeconfig.dtos.OpcionesEscogidasDto;
 import vuce2.mfeconfig.dtos.RegistroConfiguracionDto;
 import vuce2.mfeconfig.services.RegistroConfiguracionService;
 

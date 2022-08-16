@@ -13,5 +13,6 @@ public class SubSeccionesProcesosDto {
     private String id;
     private String name;
     private Boolean visible;
+    private String idSeccion;
     private ArrayList<Card> card;
 }

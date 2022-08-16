@@ -11,4 +11,6 @@ public class ProcesosDto {
     private String procedimiento;
 
     private String codigoTupa;
+
+    private String idEntidad;
 }
