@@ -15,5 +15,6 @@ public class SubSeccionesProcesos {
     private Boolean visible;
     private String idSeccion;
     private ArrayList<Card> card;
+    private Integer orden;
 
 }

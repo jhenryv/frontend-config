@@ -8,4 +8,5 @@ import lombok.Setter;
 public class SeccionProcesosDto {
     private String id;
     private String name;
+    private Integer orden;
 }
